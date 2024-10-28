@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>ĐĂNG NHẬP</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Tên đăng nhập</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="remember-forgot">
+                <libel><input type="checkbox"> Lưu mật khẩu
+                </libel>
+                <a href="#">Quên mật khẩu?</a>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p>Chưa có tài khoản? <a href="register.html">Đăng kí</a></p>
+        <p id="error" class="error-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
